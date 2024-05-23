@@ -10,7 +10,7 @@
       <div class="col-lg-4 col-md-6 col-sm-12 mb-4" v-for="meet in paginatedGroups" :key="meet.name">
         <div class="card h-100 position-relative">
           <div class="card-body text-center">
-            <h5 class="card-title">{{ meet.name }}</h5>`
+            <h5 class="card-title">{{ meet.name }}</h5>
             <p class="card-text">
               <strong>덕친 수: {{ meet.users.length }}명</strong> 
             </p>
